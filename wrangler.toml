@@ -1,0 +1,12 @@
+name = "mustache-adder"
+main = "dist/worker.js"
+compatibility_date = "2024-11-20"
+
+[build]
+command = "npm run build:worker"
+
+[env.production]
+name = "mustache-adder-prod"
+
+[env.staging]
+name = "mustache-adder-staging"
